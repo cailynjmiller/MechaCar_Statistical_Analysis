@@ -26,3 +26,14 @@ This t-test compares the PSI of all vehicles that come from Lot 2. The p-value i
 ### Lot 3 T-Test
 ![lot3](https://github.com/cailynjmiller/MechaCar_Statistical_Analysis/blob/main/images/ttest%20lot3.png)
 This t-test compares the PSI of all vehicles that come from Lot 2. The p-value is 0.04168, which is less than the 0.05 significance level meaning that we reject the null hypothesis that the population mean and the mean of Lot3 lots are the same.
+
+## Study Design: MechaCar vs Competition
+#### What metric or metrics are you going to test?
+I am going to test if there is a difference in the mean of the PSI in vehicles from Lot1 and Lot3.
+#### What is the null hypothesis or alternative hypothesis?
+Null Hypotheses - There is no statistical difference between the mean PSI of Lot1 and Lot3.<br/>
+Alternative Hypothesis - There is a statistical difference between the mean PSI of Lot1 and Lot3
+#### What statistical test would you use to test the hypothesis? And why?
+I would use a two-sample t-test because there is one independent variable which is Dichotomous (Sample A vs SampleB) and a dependent variable which is continuous (PSI). This test asks "Is there a statistical difference between the distribution means from two samples?" which will answer the question we are wanting in this experiment. 
+#### What data is needed to run the statistical test
+From each lot, we would need a data set that shows the PSI for the vehicles from that lot. All we need is those two columns in order to calculate the mean and compare the means against each other.
