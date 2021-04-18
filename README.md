@@ -29,11 +29,11 @@ This t-test compares the PSI of all vehicles that come from Lot 2. The p-value i
 
 ## Study Design: MechaCar vs Competition
 #### What metric or metrics are you going to test?
-I am going to test if there is a difference in the mean of the PSI in vehicles from Lot1 and Lot3.
+I am going to test if there is a difference in the mean of the safety rating of Mechacar vs the competition(population).
 #### What is the null hypothesis or alternative hypothesis?
-Null Hypotheses - There is no statistical difference between the mean PSI of Lot1 and Lot3.<br/>
+Null Hypotheses - There is no statistical difference between the mean safety rating of Mechacar and the competition(population).<br/>
 Alternative Hypothesis - There is a statistical difference between the mean PSI of Lot1 and Lot3
 #### What statistical test would you use to test the hypothesis? And why?
-I would use a two-sample t-test because there is one independent variable which is Dichotomous (Sample A vs SampleB) and a dependent variable which is continuous (PSI). This test asks "Is there a statistical difference between the distribution means from two samples?" which will answer the question we are wanting in this experiment. 
+I would use a one-sample t-test because there is one independent variable which is Dichotomous (MechaCar vs the Population) and a dependent variable which is continuous (safety rating). This test asks "Is there a statistical difference between the mean of the sample distribution and the mean of the population distribution?" which will answer the question we are wanting in this experiment. 
 #### What data is needed to run the statistical test
-From each lot, we would need a data set that shows the PSI for the vehicles from that lot. All we need is those two columns in order to calculate the mean and compare the means against each other.
+We would need a table of the safety ratings of Mechacar vehicles and the mean safety rating of all vehicles.
